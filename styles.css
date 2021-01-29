@@ -10,3 +10,11 @@ body {
   max-width: 980px;
   margin: 0 auto;
 }
+
+h1 {
+  text-align: center;
+}
+
+h1 > span {
+  color: #b7832f;
+}
