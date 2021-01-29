@@ -18,3 +18,18 @@ h1 {
 h1 > span {
   color: #b7832f;
 }
+
+img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50;
+}
+
+div.image-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+}
