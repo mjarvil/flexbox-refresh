@@ -6,10 +6,16 @@ body {
   font-size: 1.125rem;
 }
 
+/* layout */
+
 .container {
   width: 80%;
   max-width: 980px;
   margin: 0 auto;
+}
+
+div.columns {
+  display: flex;
 }
 
 h1 {
@@ -38,8 +44,4 @@ div.image-container {
   width: 100%;
   max-height: 200px;
   overflow: hidden;
-}
-
-div.columns {
-  display: flex;
 }
