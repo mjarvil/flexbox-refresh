@@ -17,6 +17,7 @@ body {
 
 div.columns {
   display: flex;
+  padding: 1em 0;
 }
 
 /* Typography */
@@ -34,6 +35,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+p {
+  margin-top: 0;
+}
+
 img {
   width: 100%;
   position: absolute;
@@ -47,4 +52,10 @@ div.image-container {
   width: 100%;
   max-height: 200px;
   overflow: hidden;
+}
+
+.col-bg {
+  background-color: #212614;
+  color: #fff;
+  padding: 0.5em;
 }
