@@ -15,9 +15,10 @@ body {
   margin: 0 auto;
 }
 
-div.columns {
+.columns {
   display: flex;
   padding: 1em 0;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
