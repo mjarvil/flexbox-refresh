@@ -22,6 +22,12 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+}
+
 /* Typography */
 
 h1 {
