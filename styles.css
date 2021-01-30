@@ -80,3 +80,11 @@ div.image-container {
 .col-4 {
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
+}
